@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 
+# ======================================================================
+#
+# This script will look at all the field in a "Custom_Object__c/fields"
+# folder and create a table formatted to import to a Confluence table
+# as seen here: https://confluence.tools.nintex.com/display/RD/Loop__Related_Object__c
+#
+# ======================================================================
+
 import os
 import xml.etree.ElementTree
 import sys
